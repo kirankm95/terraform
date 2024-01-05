@@ -13,7 +13,7 @@ variable "inbound-from-port" {
   default = 0
 }
 
-variable "cide_blocks" {
+variable "cidr_blocks" {
   type = list
   default = ["0.0.0.0/0"]
 }
